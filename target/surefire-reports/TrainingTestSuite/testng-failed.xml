@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TrainingTestSuite]">
+  <test name="Flight Booking Test(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="url" value="http://www.vueling.com/en"/>
+    <classes>
+      <class name="org.epam.tests.FlightBookingTest">
+        <methods>
+          <include name="flightBookingTest"/>
+          <include name="validateFlightSearchTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.epam.tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- Flight Booking Test(failed) -->
+</suite> <!-- Failed suite [TrainingTestSuite] -->

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.598 s <<< FAILURE! - in TestSuite
+validateFlightSearchTest(org.epam.tests.FlightBookingTest)  Time elapsed: 6.149 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Almeria (LEI) - Barcelona (BCN)] but found [Almería (LEI) - Barcelona (BCN)],
+	expected [26/6/2017 - 20/7/2017] but found [26/06/2017 - 20/07/2017],
+	expected [2 Adults, 2 Children, 2 Babies] but found [2 Adultos, 2 Niños, 2 Bebés]
+	at org.epam.tests.FlightBookingTest.validateFlightSearchTest(FlightBookingTest.java:51)
+
